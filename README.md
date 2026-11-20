@@ -8,8 +8,8 @@ An entry for make.fun's "Sum up 20 November's world news in one image" bounty.
 
 The image is a newspaper front page. The masthead reads "THE WORLD" and the
 date line is Friday, 20 November 2026. It sums up the day in five stories,
-each checked against live news sources on 20 November 2026 (morning edition
-— news as reported by 07:30 WIB):
+each checked against live news sources on 20 November 2026 (evening edition
+- news as reported by 17:30 WIB):
 
 1. **World court finds Myanmar guilty of genocide.** The International Court
    of Justice ruled 9-6 that Myanmar committed genocide against the
@@ -25,7 +25,7 @@ each checked against live news sources on 20 November 2026 (morning edition
 3. **GTA VI smashes launch records.** Rockstar's Grand Theft Auto VI is out
    on PlayStation 5 and Xbox Series X|S, holding a 99 on Metacritic from
    more than 150 reviews, tied for the highest score in the site's history.
-   Sensor Tower estimates 19.1M copies sold for about $1.84B on launch day;
+   Sensor Tower estimates 24.6M copies sold for about $2.36B on launch day;
    Take-Two has published no official figure.
 4. **Trump, Xi and Putin sign Peace Declaration.** A day after their first
    trilateral in Shenzhen, the three leaders issued a four-point
@@ -35,12 +35,13 @@ each checked against live news sources on 20 November 2026 (morning edition
 5. **Anthropic closes at $97.17, up 17% on debut.** Anthropic closed its
    first day on Nasdaq at $97.17, up 17% from the $83 IPO price, after
    opening at $111.50 and peaking at $115.10. The close values the Claude
-   maker at about $1.27 trillion.
+   maker at about $1.27T, or $1.77T fully diluted.
 
-Also today: Cyclone Akvan landfall by noon near Gopalpur, winds to 110
-kmph, 100,000+ evacuated; markets: Dow -2.19%, S&P 500 -2.02%, Nasdaq
--2.25%; Trump says he will meet Kim Jong-un at some point; GTA VI Festival
-in Miami this weekend with Cardi B, Metro Boomin and Travis Scott.
+Also today: Cyclone Akvan made landfall near Gopalpur, 70-80 kmph, no major
+damage or deaths, 372,000 evacuated; Myanmar calls the ICJ ruling unfair
+and Malaysia will resettle 10,000 Rohingya in Turkey; Russia hit Kyiv
+bridges after Ukraine's Crimean bridge strikes; markets: Dow -2.19%,
+S&P 500 -2.02%, Nasdaq -2.25%.
 
 Every story was verified against live news sources on 20 November 2026 (see
 SOURCES.md in the competition workspace). All text is set in real fonts, so
@@ -56,8 +57,8 @@ output.
 
 ## Files
 
-- `main.ts` — the program (the entrypoint). It copies and verifies the image.
-- `entry.png` — the picture: the front page itself.
+- `main.ts` - the program (the entrypoint). It copies and verifies the image.
+- `entry.png` - the picture: the front page itself.
 
 ## Run it
 

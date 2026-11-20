@@ -11,11 +11,10 @@
 // out garbled. No network is used at run time; everything the program needs
 // ships in this repo.
 //
-// MORNING EDITION: the five stories are the outcomes of Thursday 19
-// November, the news the world woke up to on 20 November: the ICJ genocide
-// verdict on Myanmar, the Houthi strike on Riyadh's PIF Tower, GTA VI's
-// record launch day, the Shenzhen Peace Declaration, and Anthropic's first
-// day of trading on Nasdaq.
+// EVENING EDITION: the five stories are the outcomes of Thursday 19
+// November, updated with Friday 20 November's own outcomes: Cyclone Akvan's
+// landfall near Gopalpur, Sensor Tower's raised GTA VI launch-day estimate
+// (24.6M / ~$2.36B), and Anthropic's close stated on both share bases.
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
